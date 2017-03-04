@@ -10,6 +10,7 @@ Basicamente se debe correr el script en el directorio donde se halla el archivo
 de configuración _"datos.xlsx"_ y el documento que se descarga con la información
 de los estudiantes desde la plataforma [Khan Academy](https://es.khanacademy.org/), 
 el nombre de tal archivo se debe especificar en la hoja denominada datos.
+
 		$python califica.py 
 
 #Configuración
