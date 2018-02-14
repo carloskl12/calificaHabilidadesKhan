@@ -1,11 +1,11 @@
-#Origen
+# Origen
 El script se desarrolló con el fin de obtener una calificación a estudiantes
 que se les ha recomendado un conjunto de habilidades en la plataforma 
 [Khan Academy](https://es.khanacademy.org/).
 
-#Requisitos
+# Requisitos
 Entorno donde pueda correr python, con la librería _openpyxl_
-#Modo de uso
+# Modo de uso
 Basicamente se debe correr el script en el directorio donde se halla el archivo 
 de configuración _"datos.xlsx"_ y el documento que se descarga con la información
 de los estudiantes desde la plataforma [Khan Academy](https://es.khanacademy.org/), 
@@ -13,7 +13,7 @@ el nombre de tal archivo se debe especificar en la hoja denominada datos.
 
 		$python califica.py 
 
-#Configuración
+# Configuración
 La hoja de cálculo _"datos.xlsx"_ es donde se halla la configuración de como 
 generar los reportes, consta de cuatro hojas:
 
@@ -29,7 +29,7 @@ los estudiantes.
 la nota cualitativa que da la plataforma Khan Academy.
 
 
-#Recomendaciones
+# Recomendaciones
 En la plataforma Khan Academy se debe tener a los estudiantes identificados por
 código, en caso de que no estén así, es posible renombrarlos manualmente. Aunque
 es posible usar nombres pero quizá no es muy práctico a nivel de tiempos en que 
